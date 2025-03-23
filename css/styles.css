@@ -77,7 +77,6 @@ img{
 
 .nav-list { 
     display: flex;
-    padding: 24px 0;
     gap: 40px;
 }
 
@@ -89,6 +88,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;  
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .nav-item .nav-link:hover,
@@ -127,7 +127,7 @@ img{
     height: 600px;
 }
 
-.hero .container{
+.hero{
     padding: 188px 0;
 }
 
@@ -149,6 +149,8 @@ img{
     justify-content: center;
     align-items: center;
     padding-top: 48px;
+    border: none;
+    margin: 0 auto;
 }
 
 .button-primary {
@@ -163,8 +165,6 @@ img{
         border-radius: 4px;
         min-width: 169px;
         height: 56px;
-        border: none;
-        margin: 0 auto;
 }
 
 .button-primary:hover,
@@ -176,6 +176,10 @@ img{
 
 
 /*---------Features------*/
+.features{
+    padding: 120px 0;
+}
+
 .hidden-title{
     display: none;
 }
@@ -183,7 +187,6 @@ img{
 .subsection-list {
     display: flex;
     gap: 24px;
-    padding: 120px 0;
 }
 
 .subsection-item{
