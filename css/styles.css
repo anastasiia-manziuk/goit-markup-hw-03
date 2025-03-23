@@ -285,7 +285,9 @@ img{
 
 
 /*----------OUR PORTFOLIO------*/
-.portfolio {}
+.portfolio {
+    padding: 120px 0 120px 0;
+}
 
 .sub-title-portfolio{
     text-transform: capitalize;
@@ -297,7 +299,7 @@ img{
     color: #2E2F42;
     min-width: 218px;
     margin: 0 auto;
-    padding: 120px 0 120px 0;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -305,6 +307,7 @@ img{
     flex-wrap: wrap;
     gap: 24px;
     padding-top: 72px;
+    row-gap: 48px;
 }
 
 .portfolio-item {
@@ -340,33 +343,33 @@ img{
 
 
 .payment-portfolio {
-        padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .meditation-portfolio {
-        padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .taxi-portfolio {
-        padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .screen-portfolio {
-        padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .online-portfolio {
-        padding: 32px 16px;
-            border: 1px solid #e7e9fc;
-            border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 
@@ -401,7 +404,6 @@ img{
     color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .logo-footer{
