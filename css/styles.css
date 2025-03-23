@@ -176,13 +176,14 @@ img{
 
 
 /*---------Features------*/
-.features {}
+.hidden-title{
+    display: none;
+}
 
 .subsection-list {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .subsection-item{
@@ -195,6 +196,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .text-section {
@@ -211,6 +213,7 @@ img{
 .team {
     background-color: #F4F4FD;
     display: flex;
+    padding: 120px 0;
 }
 
 .sub-title {
@@ -223,7 +226,7 @@ img{
     color: #2E2F42;
     min-width: 162px;
     margin: 0 auto;
-    padding-top: 120px;
+    margin-bottom: 72px;
 }
 
 .list-items{
@@ -237,7 +240,7 @@ img{
 
 .subsection-title {
     text-align: center;
-    padding-top: 32px;
+    margin-bottom: 8px
 }
 
 .text-section {
@@ -249,7 +252,25 @@ img{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     overflow: hidden;
+    border-radius: 0px 0px 4px 4px;
     }
+
+.designer{
+    padding: 32px 0;
+}
+
+.developer{
+        padding: 32px 0;
+}
+
+.marketing{
+        padding: 32px 0;
+}
+
+.daniel-designer{
+        padding: 32px 0;
+}
+
 
 /*----------OUR TEAM------*/
 
@@ -273,16 +294,14 @@ img{
     color: #2E2F42;
     min-width: 218px;
     margin: 0 auto;
-    margin-top: 102px;
+    padding: 120px 0 120px 0;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    row-gap: 48px;
     padding-top: 72px;
-    padding-bottom: 120px;
 }
 
 .portfolio-item {
@@ -296,7 +315,7 @@ img{
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2E2F42;
-            padding-top: 32px;
+            margin-bottom: 8px
 }
 
 .portfolio-text {
@@ -304,8 +323,49 @@ img{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-bottom: 32px; 
 }
+
+
+
+
+
+.app-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+
+.payment-portfolio {
+        padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+}
+
+.meditation-portfolio {
+        padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+}
+
+.taxi-portfolio {
+        padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+}
+
+.screen-portfolio {
+        padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+}
+
+.online-portfolio {
+        padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+}
+
 
 
 /*----------OUR PORTFOLIO------*/
@@ -315,6 +375,7 @@ img{
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 
 
 }
@@ -337,6 +398,7 @@ img{
     color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-footer{
