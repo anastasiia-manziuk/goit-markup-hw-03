@@ -144,16 +144,16 @@ img{
 
 }
 
-.hero-button{
+/*---.hero-button{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 48px;
     border: none;
-}
+}*/
 
 .button-primary {
-    display: inline-block;
+    display: block;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -164,6 +164,8 @@ img{
         border-radius: 4px;
         min-width: 169px;
         height: 56px;
+        margin: 0 auto;
+        margin-top: 48px;
 }
 
 .button-primary:hover,
@@ -179,9 +181,19 @@ img{
     padding: 120px 0;
 }
 
-.hidden-title{
-    display: none;
-}
+.hidden-title {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+        }
+
 
 .subsection-list {
     display: flex;
