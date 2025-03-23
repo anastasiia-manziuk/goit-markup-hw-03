@@ -160,6 +160,7 @@ img{
         min-width: 169px;
         height: 56px;
         border: none;
+        margin: 0 auto;
         
 }
 
@@ -172,7 +173,7 @@ img{
 
 
 /*---------Features------*/
-.Features {}
+.features {}
 
 .subsection-list {
     display: flex;
