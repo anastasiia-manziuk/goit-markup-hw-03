@@ -136,18 +136,19 @@ img{
         color: #FFFFFF;
         margin: 0 auto;
         max-width: 496px;
-        text-align: center;
-        padding-top: 188px;
+        padding: 188px 0;
 
 }
 
 .hero-button{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 48px;
 }
 
 .button-primary {
+    display: block;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -159,6 +160,7 @@ img{
         min-width: 169px;
         height: 56px;
         border: none;
+        
 }
 
 .button-primary:hover,
