@@ -342,31 +342,31 @@ img{
 }
 
 
-.payment-portfolio {
+.app-portfolio{
     padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
 }
 
-.meditation-portfolio {
+.app-portfolio{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.taxi-portfolio {
+.app-portfolio{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.screen-portfolio {
+.app-portfolio{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.online-portfolio {
+.app-portfolio{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
