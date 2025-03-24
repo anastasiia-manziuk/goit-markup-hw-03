@@ -246,8 +246,6 @@ img{
 
 .list-items{
     display: flex;
-    padding-top: 72px;
-    padding-bottom: 138px;
     gap: 24px;
 
 }
@@ -282,7 +280,7 @@ img{
         padding: 32px 0;
 }
 
-.two-designer{
+.ui-designer{
         padding: 32px 0;
 }
 
